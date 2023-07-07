@@ -1,0 +1,28 @@
+*{
+    outline: none;
+}
+.formContent{
+    width: max-content;
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.todoInput{
+    height: 35px;
+    width: 250px;
+}
+button{
+    border: 0;
+}
+.fa-plus{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(17, 110, 17);
+    color: white;
+    cursor: pointer;
+}
+.fa-plus:hover{
+    color: rgb(17, 110, 17);
+    background-color: white;
+}

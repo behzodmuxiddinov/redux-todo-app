@@ -1,0 +1,27 @@
+.filterbox{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.selectors{
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+}
+.item{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+.filter{
+    margin-right: 9px;
+}
+.filter:last-child{
+    margin: 0;
+}
